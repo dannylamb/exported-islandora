@@ -1,0 +1,10 @@
+uuid: be379a6b-ba0b-421b-a22f-5f44f54bc79e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8KAllLbSPC7wkwMZ_mtJsxrV45Gs5ojJ7tbrjZcXtZw
+name: Language
+vid: language
+description: 'Language of the work'
+weight: 0

@@ -1,0 +1,23 @@
+uuid: f22e1b7b-9a18-43f2-a1c9-515333f4b423
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - islandora_defaults
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: u0KwLd2DlcMVtwtwvSZSK3QmyYCLW2Qr7JKUeL51Mnc
+name: 'Repository Item'
+type: islandora_object
+description: 'An item in your Islandora repository.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

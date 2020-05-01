@@ -1,0 +1,18 @@
+uuid: 4aee8f98-3993-46e3-9694-a453eab821dc
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - islandora_core_feature
+  module:
+    - islandora
+_core:
+  default_config_hash: 0B7OiLQjFhZXcas_HOMqgt-3eSVv186aLAQCc3zEmXA
+id: index_taxonomy_term_in_fedora
+label: 'Index taxonomy term in Fedora'
+type: taxonomy_term
+plugin: emit_term_event
+configuration:
+  queue: islandora-indexing-fcrepo-content
+  event: Update

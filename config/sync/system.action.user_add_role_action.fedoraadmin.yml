@@ -1,0 +1,14 @@
+uuid: e13229aa-b65c-41fb-ae3f-a6593b38808b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.fedoraadmin
+  module:
+    - user
+id: user_add_role_action.fedoraadmin
+label: 'Add the fedoraAdmin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: fedoraadmin
